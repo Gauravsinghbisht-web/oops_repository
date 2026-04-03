@@ -6,7 +6,7 @@ class Student {
 
   Student(this.name, this.marks);
 
-  Student.fail(this.name) : marks = 0;
+  Student.fail(this.name) : marks = 0;       //here student.fail is a named constructor
 
   void display() {
     print("Name: $name, Marks: $marks");
